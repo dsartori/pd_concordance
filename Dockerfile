@@ -14,7 +14,7 @@ COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 
-COPY concordance_script.py .
+COPY pd_concordance.py .
 COPY pd_analysis.py .
 COPY data/*.geojson .
 
